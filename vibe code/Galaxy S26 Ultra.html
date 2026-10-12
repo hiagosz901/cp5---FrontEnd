@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Galaxy S26 Ultra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="wrap site-nav">
+<a class="logo" href="#top" aria-label="Galaxy S26 Ultra">Galaxy <span>S26 Ultra</span></a>
+<nav class="site-nav__links" aria-label="Seções"><a href="#top">Início</a><a href="#destaques">Destaques</a><a href="#specs">Especificações</a><a href="#cores">Cores</a></nav>
+<a class="button" href="#specs">Ver ficha técnica</a>
+</div></header>
+
+<main id="top">
+<div class="wrap">
+<div class="hero">
+<p class="hero__intro">Uma nova era do Ultra: mais tela, mais câmera, mais inteligência.</p>
+<h1 class="hero__title">Galaxy S26 Ultra</h1>
+<a class="button" href="#destaques">Conhecer em detalhes <span aria-hidden="true">→</span></a>
+<div class="product-stage">
+<img class="product-stage__image" src="imgs/frenteEtras.png" alt="Galaxy S26 Ultra, vista frontal e traseira" fetchpriority="high">
+</div>
+<a class="scroll-cue" href="#destaques" aria-label="Rolar para destaques">↓</a>
+</div>
+</div>
+<div class="spec-strip" aria-hidden="true"><div class="spec-strip__track">
+<span>/ 200 MP câmera principal</span><span>/ 7,9 mm de espessura</span><span>/ 2.600 nits de brilho</span><span>/ 60 W carga rápida</span>
+<span>/ 200 MP câmera principal</span><span>/ 7,9 mm de espessura</span><span>/ 2.600 nits de brilho</span><span>/ 60 W carga rápida</span>
+</div></div>
+
+<div class="wrap">
+<section class="content-section" id="destaques">
+<p class="section-eyebrow">Destaques</p>
+<h2 class="section-title">Feito para quem quer mais de cada momento.</h2>
+<div id="cards"></div>
+</section>
+
+<section class="content-section" id="specs">
+<p class="section-eyebrow">Ficha técnica</p>
+<h2 class="section-title">Os números por trás do Ultra.</h2>
+<div class="spec-list">
+<div class="spec-list__item"><span>Tela</span><b>6,9" Dynamic AMOLED 2X</b></div>
+<div class="spec-list__item"><span>Resolução</span><b>QHD+ (3120 × 1440)</b></div>
+<div class="spec-list__item"><span>Processador</span><b>Snapdragon 8 Elite Gen 5</b></div>
+<div class="spec-list__item"><span>Memória RAM</span><b>12 GB (16 GB no 1 TB)</b></div>
+<div class="spec-list__item"><span>Armazenamento</span><b>256 GB, 512 GB ou 1 TB</b></div>
+<div class="spec-list__item"><span>Câmera frontal</span><b>12 MP</b></div>
+<div class="spec-list__item"><span>Dimensões</span><b>163,6 × 78,1 × 7,9 mm</b></div>
+<div class="spec-list__item"><span>Peso</span><b>214 g</b></div>
+<div class="spec-list__item"><span>Bateria</span><b>5.000 mAh</b></div>
+<div class="spec-list__item"><span>S Pen</span><b>Integrada</b></div>
+</div>
+</section>
+
+<section class="content-section" id="cores">
+<p class="section-eyebrow">Cores</p>
+<h2 class="section-title">Escolha o seu acabamento.</h2>
+<div class="color-options">
+<span class="color-options__item"><i class="color-swatch color-swatch--white"></i>Branco</span>
+<span class="color-options__item"><i class="color-swatch color-swatch--sky-blue"></i>Azul Céu</span>
+<span class="color-options__item"><i class="color-swatch color-swatch--black"></i>Preto</span>
+<span class="color-options__item"><i class="color-swatch color-swatch--cobalt-violet"></i>Violeta Cobalto</span>
+</div>
+</section>
+</div>
+
+<footer class="site-footer"><div class="wrap">Página conceitual feita para fins ilustrativos. Especificações podem variar por região e configuração. Samsung e Galaxy são marcas de seus respectivos proprietários.</div></footer>
+</main>
+
+<script>
+const F=[
+{t:"Tela",h:"Privacy Display, brilho de sobra.",d:"6,9 polegadas QHD+ com taxa adaptativa de até 120 Hz, revestimento antirreflexo e a nova tela de privacidade que limita a visão pelos lados.",s:[["6,9\"","Dynamic AMOLED 2X"],["120Hz","Taxa adaptativa"],["2.600","Nits de pico"]],image:"imgs/frente.png",alt:"Vista frontal do Galaxy S26 Ultra com a tela ligada",r:0},
+{t:"Câmera",h:"200 MP com abertura f/1.4.",d:"Sensor principal mais luminoso, ultra-wide de 50 MP e duas teles: 3x de 10 MP e 5x de 50 MP, além de selfie de 12 MP.",s:[["200MP","Principal f/1.4"],["50MP","Zoom óptico 5x"],["12MP","Câmera frontal"]],image:"imgs/traseira.png",alt:"Vista traseira do Galaxy S26 Ultra com suas câmeras",r:1},
+{t:"Desempenho",h:"Snapdragon 8 Elite Gen 5.",d:"O chip mais potente da linha Galaxy, com 12 GB de RAM e armazenamento UFS 4 de até 1 TB para IA, jogos e multitarefa sem engasgos.",s:[["12GB","RAM"],["1TB","Armazenamento máx."],["S Pen","Integrada"]],image:"imgs/frenteEtras.png",alt:"Vistas frontal e traseira do Galaxy S26 Ultra",r:0},
+{t:"Bateria",h:"Dia inteiro, carga em minutos.",d:"Bateria de 5.000 mAh com carregamento com fio de 60 W, sem fio de 25 W e reverso de 4,5 W para acessórios.",s:[["5.000","mAh"],["60W","Com fio"],["25W","Sem fio"]],image:"imgs/frente.png",alt:"Galaxy S26 Ultra visto de frente",r:1}
+];
+document.getElementById("cards").innerHTML=F.map(f=>`<article class="feature-card reveal ${f.r?"feature-card--reverse":""}"><div class="feature-card__info"><div><div class="feature-card__tag">${f.t}</div><h3 class="feature-card__title">${f.h}</h3><p class="feature-card__description">${f.d}</p></div><div class="feature-card__stats">${f.s.map(x=>`<div><b>${x[0]}</b><small>${x[1]}</small></div>`).join("")}</div><a class="feature-card__link" href="#specs">Ver especificações <span aria-hidden="true">→</span></a></div><div class="feature-card__art"><div class="feature-card__ring"></div><img class="feature-card__image" src="${f.image}" alt="${f.alt}" loading="lazy"></div></article>`).join("");
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("is-visible");observer.unobserve(entry.target)}}),{threshold:.15});
+document.querySelectorAll(".reveal").forEach(element=>observer.observe(element));
+</script>
+</body>
+</html>
